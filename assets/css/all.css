@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.layout-header,
+.layout-footer {
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.layout-main {
+  padding: 2rem;
+}
+.c-nav__list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+.c-nav__item a {
+  color: white;
+  text-decoration: none;
+}
+
+.c-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.c-card__title {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+.is-active {
+  font-weight: bold;
+  color: red;
+}
+.is-active {
+  font-weight: bold;
+  color: red;
+}
+.u-text-center {
+  text-align: center;
+}
+
+.u-mb-sm {
+  margin-bottom: 0.5rem;
+}
+
+.c-nav__list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+.c-nav__item a {
+  color: white;
+  text-decoration: none;
+}
+
+.c-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.c-card__title {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
